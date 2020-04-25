@@ -44,9 +44,10 @@ p {
 
 /* Bootstrap */
 .container-fluid {
-    background-image:url("../images/cheers.png");
+    /* background-image:url("../images/cheers.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 495px; */
+    background-color: rgba(255, 255, 255, 0.822);
     height: 500px;
     display: flex;
     align-items: center;
