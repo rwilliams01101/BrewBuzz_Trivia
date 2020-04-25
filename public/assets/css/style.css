@@ -54,6 +54,8 @@ p {
     border-bottom:4px solid rgba(187, 187, 187, 0.699);
     border-top:3px solid rgba(221, 221, 221, 0.719);
     border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
