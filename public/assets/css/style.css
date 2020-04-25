@@ -44,7 +44,8 @@ p {
 /* Bootstrap */
 .container-fluid {
     background-image:url("../images/cheers.png");
-    height: 85%;
+    height: 500px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
