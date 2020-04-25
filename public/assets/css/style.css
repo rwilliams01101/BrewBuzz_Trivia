@@ -29,6 +29,7 @@ p {
 
 #cheersBeers {
     margin-top: 95px;
+    position: relative;
 }
 
 .toggle-mute {
@@ -44,8 +45,9 @@ p {
 /* Bootstrap */
 .container-fluid {
     background-image:url("../images/cheers.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 500px;
-    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
