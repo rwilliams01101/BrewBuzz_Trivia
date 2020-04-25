@@ -45,7 +45,7 @@ p {
 .container-fluid {
     background-image:url("../images/cheers.png");
     height: 500px;
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
