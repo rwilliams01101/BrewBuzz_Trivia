@@ -134,10 +134,10 @@ p {
 }
 
 #reset-game-button {
-  border-color: #fdc350;
+  background-color: transparent;
+  border-color: transparent;
   border-style: none;
-  color: #fdc350;
-  background-color: #fdc350;
+  color: transparent;
 }
 
 .players-list {
