@@ -28,7 +28,7 @@ p {
 }
 
 #cheersBeers {
-  margin-top: 95px;
+  margin-top: 15px;
   position: relative;
 }
 
@@ -105,6 +105,13 @@ p {
 
 #username {
   width: 100%;
+}
+
+#start-with-players-button {
+  width: 50px;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: none;
 }
 
 /* Game Container */
