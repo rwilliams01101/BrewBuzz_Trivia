@@ -15,7 +15,7 @@ module.exports = function (server) {
     console.log("made socket connection", socket.id);
 
     socket.on("new-player", function (data) {
-      if (allPlayers.length < 4) {
+      if (allPlayers.length < 5) {
         allPlayers.push({ username: data, userId: socket.id, answer: null });
         var nameList = getNameList(allPlayers);
         io.sockets.emit("update-players-list", nameList);
