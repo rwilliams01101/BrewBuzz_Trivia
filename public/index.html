@@ -19,8 +19,8 @@
     <div class="container-fluid">   
         <div class="landing-container">
             <div>
-                <h3 class="text-center">Presidential Election Night 2020</h3>
-                <h6 class="text-center">America's Chance at Redemption</h6>
+                <h3 class="text-center">Saint Alan's Day XII</h3>
+                <h6 class="text-center">Biohazard Edition</h6>
             </div>
             <div class="giphy">
                 <iframe id="cheersBeers" src="https://giphy.com/embed/3ov9jLEBP6ZTzhDC6Y" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -31,10 +31,10 @@
             <div>
                 <button type="submit" id="edit-prompts-button" class="btn btn-dark">ENTER YOUR QUESTIONS</button>
             </div>
-            <div id="modalButton">
+            <!-- <div id="modalButton">
                 <button type="button" class="btn btn-dark" id="howToModal" data-toggle="modal" data-target="#homePageModal">HOW TO PLAY
                 </button>
-            </div>
+            </div> -->
         </div>
     
         <div class="prompts-container">
@@ -42,12 +42,14 @@
                 <textarea type="text" placeholder="Enter new prompt here" id="new-prompt-text"></textarea>
             </div>
             <div>
+                <div>Choose an answer type:</div>
                 <div class="btn-group btn-group-toggle" data-toggle="buttons" id="group">
-                    <label class="btn btn-dark active" id="true">
+                    
+                    <label class="questionTypeBtn" id="true">
                       <input type="radio" name="options" id="true1" checked>TRUE</label>
-                    <label class="btn btn-dark" id="false">
+                    <label class="questionTypeBtn" id="false">
                       <input type="radio" name="options" id="false1">FALSE</label>
-                    <label class="btn btn-dark" id="open">
+                    <label class="questionTypeBtn" id="open">
                       <input type="radio" name="options" id="open1">OPEN</label>
                   </div>
             </div>
@@ -114,7 +116,7 @@
     
         <div class="game-container layout">
             <div class="reset-button-container">
-                <button type="submit" id="reset-game-button" class="btn btn-danger"><i class="fas fa-times"></i></button>
+                <button type="submit" id="reset-game-button" class="secretButton"><i class="fas fa-times"></i></button>
             </div>
             <div class="waiting-area">
                 <div class="players-list"></div>
@@ -149,9 +151,6 @@
                     <div>
                         <button type="submit" id="after-ready-button" class="btn btn-dark">READY</button>
                     </div>
-                    <!-- <div>
-                        <button type="submit" id="after-end-button" class="btn btn-danger">END GAME</button>
-                    </div> -->
                 </div>
             </div>
         </div>
