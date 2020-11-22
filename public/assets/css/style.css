@@ -94,6 +94,18 @@ p {
   width: 100%;
 }
 
+#true.active {
+  background-color: #fdc350;
+}
+
+#false.active {
+  background-color: #fdc350;
+}
+
+#open.active {
+  background-color: #fdc350;
+}
+
 /* Username Container */
 .username-container {
   display: none;
